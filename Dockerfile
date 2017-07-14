@@ -1,4 +1,4 @@
-FROM modpreneur/necktie-fpm-dev:0.14
+FROM modpreneur/necktie-fpm-dev:0.15
 
 MAINTAINER Martin Kolek <kolek@modpreneur.com>
 
@@ -7,4 +7,4 @@ RUN apk add --update \
     apache-ant \
     parallel
 
-RUN echo "modpreneur/necktie-fpm-test:0.14" >> /home/versions
+RUN echo "modpreneur/necktie-fpm-test:0.15" >> /home/versions
